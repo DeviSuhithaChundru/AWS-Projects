@@ -1,4 +1,4 @@
-<p align="center">Visualising Netflix Data Using Amazon QuickSight</p>
+**<h1><p align="center">Visualising Netflix Data Using Amazon QuickSight</p></h1>**
 
 **Project Overview**
 
