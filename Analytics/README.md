@@ -78,23 +78,23 @@ Publish and export the dashboard for sharing.
 
 **Key Insights from the Dashboard**
 
-Release Trends: Visualized the count of Netflix titles by release year.
+**Release Trends:** Visualized the count of Netflix titles by release year.
 
-Category Breakdown: Identified the most popular categories, such as "Action & Adventure" and "TV Comedies."
+**Category Breakdown:** Identified the most popular categories, such as "Action & Adventure" and "TV Comedies."
 
-Date Analysis: Found that Netflix added the highest number of titles on January 1, 2020.
+**Date Analysis:** Found that Netflix added the highest number of titles on January 1, 2020.
 
-Category Filters: Analyzed specific categories and their contribution to the Netflix catalogue.
+**Category Filters:** Analyzed specific categories and their contribution to the Netflix catalogue.
 
 **How to Run the Project Locally**
 
-Download the dataset (netflix_titles.csv) and manifest.json file.
+1. Download the dataset (netflix_titles.csv) and manifest.json file.
 
-Upload both files to an S3 bucket in your AWS account.
+2. Upload both files to an S3 bucket in your AWS account.
 
-Configure Amazon QuickSight to connect to the dataset via the manifest.json URL.
+3. Configure Amazon QuickSight to connect to the dataset via the manifest.json URL.
 
-Use the QuickSight interface to create visualizations.
+4. Use the QuickSight interface to create visualizations.
 
 **Example Visualizations**
 
