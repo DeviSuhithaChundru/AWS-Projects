@@ -48,15 +48,15 @@ Open the dataset in QuickSight and select Visualize.
 
 Drag and drop fields from the dataset to create different types of charts, including:
 
-Bar Chart: Count of TV shows/movies by release year.
+**Bar Chart:** Count of TV shows/movies by release year.
 
-Donut Chart: Distribution of TV shows vs. movies.
+**Donut Chart:** Distribution of TV shows vs. movies.
 
-Table: Listing of TV shows and movies per release year.
+**Table:** Listing of TV shows and movies per release year.
 
-Stacked Bar Chart: Percentage breakdown of TV shows and movies by year.
+**Stacked Bar Chart:** Percentage breakdown of TV shows and movies by year.
 
-Date Analysis: Identify the day Netflix added the most titles (e.g., January 1, 2020).
+**Date Analysis:** Identify the day Netflix added the most titles (e.g., January 1, 2020).
 
 **5. Apply Filters and Experiment with Visualizations**
 
