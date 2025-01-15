@@ -98,13 +98,13 @@ Publish and export the dashboard for sharing.
 
 **Example Visualizations**
 
-Bar Chart: Number of titles released per year.
+**Bar Chart:** Number of titles released per year.
 
-Donut Chart: Percentage of TV shows vs. movies.
+**Donut Chart:** Percentage of TV shows vs. movies.
 
-Table: Count of titles in specific categories.
+**Table:** Count of titles in specific categories.
 
-Stacked Bar Chart: Distribution of TV shows and movies across years.
+**Stacked Bar Chart:** Distribution of TV shows and movies across years.
 
 **Summary**
 
