@@ -120,3 +120,11 @@ In this project, I:
 
 This project showcases my ability to work with AWS services, analyze datasets, and create professional dashboards using Amazon QuickSight.
 
+**Let's Connect**
+
+Feel free to explore the project and reach out with any questions or feedback. I'm excited to connect with like-minded professionals and recruiters in the data analytics field.
+
+**LinkedIn:** https://www.linkedin.com/in/devisuhitha/
+
+**Email:** cdevisuhitha@gmail.com
+
