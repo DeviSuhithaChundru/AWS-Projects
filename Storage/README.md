@@ -36,7 +36,7 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 1. Click on the **Objects tab** in the **S3 bucket**.  
 2. Upload your **HTML, CSS, JavaScript, and image files**.  
 3. Click **Upload**.
-![Upload Files](images/Uploaded Files.png)  
+![Upload Website Files](Storage/Uploaded Files.png)  
 
 ### 🔹 Step 4: Configure Bucket Permissions  
 1. Open the **Permissions** tab.  
