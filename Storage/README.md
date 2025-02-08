@@ -39,7 +39,7 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 ### 🔹 Step 4: Configure Bucket Permissions  
 1. Open the **Permissions** tab.  
 2. Click **Edit Bucket Policy** and add the following JSON:  
-
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -52,6 +52,8 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
     }
   ]
 }
+🔹 Replace your-bucket-name with your actual S3 bucket name.
+
 ## 🤝 Contributing
 Have ideas for improvement? Feel free to fork this repository and submit a pull request!
 
