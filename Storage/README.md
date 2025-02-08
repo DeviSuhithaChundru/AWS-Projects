@@ -38,7 +38,9 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 
 ### 🔹 Step 4: Configure Bucket Permissions  
 1. Open the **Permissions** tab.  
-2. Click **Edit Bucket Policy** 
+2. Click **Edit Bucket Policy** Click **Edit**.  
+3. Add the following **Bucket Policy** and click **Save**:  
+
 
 ## 🤝 Contributing
 Have ideas for improvement? Feel free to fork this repository and submit a pull request!
