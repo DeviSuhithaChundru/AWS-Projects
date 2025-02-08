@@ -25,18 +25,16 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 4. Choose a **Region** (closest to your users for better speed).  
 5. Disable **Block Public Access** (Required for public websites).  
 6. Click **Create Bucket**.
-![Create an Amazon S3 Bucket](Storage/S3 Bucket.png)
  
 ### 🔹 Step 2: Enable Static Website Hosting  
 1. Open the **created S3 Bucket**.  
 2. Go to the **Properties tab** → Scroll down to **Static Website Hosting**.  
-3. **Enable** it and set  
+3. **Enable** it and set.
 
 ### 🔹 Step 3: Upload Website Files  
 1. Click on the **Objects tab** in the **S3 bucket**.  
 2. Upload your **HTML, CSS, JavaScript, and image files**.  
 3. Click **Upload**.
-![Upload Website Files](Storage/Uploaded Files.png)  
 
 ### 🔹 Step 4: Configure Bucket Permissions  
 1. Open the **Permissions** tab.  
