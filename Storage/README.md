@@ -37,10 +37,6 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 Step 4: Configure Permissions for Public Access
 1️⃣ Open the Permissions tab
 2️⃣ Under Bucket Policy, add the following JSON policy to allow public access:
-
-json
-Copy
-Edit
 {
   "Version": "2012-10-17",
   "Statement": [
