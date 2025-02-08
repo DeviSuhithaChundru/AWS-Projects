@@ -25,7 +25,7 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 4. Choose a **Region** (closest to your users for better speed).  
 5. Disable **Block Public Access** (Required for public websites).  
 6. Click **Create Bucket**.
-![Create S3 Bucket](images/S3 Bucket.png)
+![Create S3 Bucket](Storage/S3 Bucket.png)
  
 ### 🔹 Step 2: Enable Static Website Hosting  
 1. Open the **created S3 Bucket**.  
