@@ -1,5 +1,5 @@
 **<h1><p align="center">🌍 Hosting a Static Website on Amazon S3</p></h1>**
-**📌 Project Overview**
+## 📌 Project Overview
 This project walks you through the process of hosting a fully functional static website using **Amazon S3 (Simple Storage Service)**. By leveraging AWS S3, you can deploy a scalable, secure, and cost-effective website without the need for traditional web servers.
 This guide covers everything from setting up an S3 bucket, enabling static website hosting, configuring bucket policies for public access, handling errors.
 
