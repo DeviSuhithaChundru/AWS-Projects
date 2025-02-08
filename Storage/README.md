@@ -3,7 +3,7 @@
 This project walks you through the process of hosting a fully functional static website using **Amazon S3 (Simple Storage Service)**. By leveraging AWS S3, you can deploy a scalable, secure, and cost-effective website without the need for traditional web servers.
 This guide covers everything from setting up an S3 bucket, enabling static website hosting, configuring bucket policies for public access, handling errors.
 
-🚀 Why Use Amazon S3 for Hosting?
+**🚀 Why Use Amazon S3 for Hosting?**
 ✅ Low Cost – Only pay for storage and bandwidth, eliminating server costs
 ✅ High Availability – AWS ensures global uptime and redundancy
 ✅ Scalability – Handles any amount of web traffic effortlessly
@@ -17,7 +17,7 @@ This guide covers everything from setting up an S3 bucket, enabling static websi
 **HTML, CSS, JavaScript** – Frontend for the website
 **🔧 Setup & Deployment Guide**
 **Step 1: Create an Amazon S3 Bucket**
-1️⃣ Log in to AWS Console
+##1️⃣ Log in to AWS Console
 2️⃣ Navigate to Amazon S3 → Click on Create Bucket
 3️⃣ Enter a unique Bucket Name (e.g., nextwork-website-projectname)
 4️⃣ Choose a Region (closest to your users for better speed)
