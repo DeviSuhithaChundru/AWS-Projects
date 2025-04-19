@@ -70,6 +70,12 @@ The live website confirms the Dockerized app was deployed successfully to the cl
 - Applied DevOps concepts in a real-world scenario
 
 ---
+## 🧹 Clean Up After Deployment
+
+When I uploaded the ZIP file to Elastic Beanstalk, AWS stored it in an S3 bucket automatically.
+To avoid storage charges, I deleted the old versions from the S3 bucket after the app was successfully deployed.
+
+---
 
 ## 📬 Let's Connect
 
