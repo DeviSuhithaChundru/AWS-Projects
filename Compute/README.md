@@ -56,7 +56,7 @@ This PDF includes:
 
 ## 🖼️ Live Preview Screenshot
 
-![Deployed App](Screenshots/Deployed_Application.png)
+![Deployed App](Screenshots/Deployed_Application .png)
 
 The live website confirms the Dockerized app was deployed successfully to the cloud using Elastic Beanstalk.
 
