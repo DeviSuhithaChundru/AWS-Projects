@@ -1,7 +1,7 @@
 
-# Deploying a Containerized Web Application Using Docker & AWS Elastic Beanstalk &nbsp;
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
-![Elastic Beanstalk](https://img.shields.io/badge/-Elastic%20Beanstalk-FF9900?logo=amazonaws&logoColor=white&style=flat-square)
+# Deploying a Containerized Web Application Using Docker & AWS Elastic Beanstalk 
+<img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="Docker Logo" width="60"/>
+<img src="https://cdn.worldvectorlogo.com/logos/aws-elastic-beanstalk.svg" alt="Elastic Beanstalk Logo" width="60"/>
 
 This project showcases an end-to-end deployment pipeline where I containerized a custom static web application using Docker and deployed it seamlessly to the cloud with AWS Elastic Beanstalk. It demonstrates my ability to design, containerize, and manage web app infrastructure using modern DevOps practices.
 
