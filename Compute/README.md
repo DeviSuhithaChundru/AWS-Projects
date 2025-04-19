@@ -4,6 +4,7 @@
 ![Elastic Beanstalk](https://img.shields.io/badge/-Elastic%20Beanstalk-FF9900?logo=amazonaws&logoColor=white&style=flat-square)
 
 This project showcases an end-to-end deployment pipeline where I containerized a custom static web application using Docker and deployed it seamlessly to the cloud with AWS Elastic Beanstalk. It demonstrates my ability to design, containerize, and manage web app infrastructure using modern DevOps practices.
+
 ---
 
 ## 🛠️ Tools & Technologies
