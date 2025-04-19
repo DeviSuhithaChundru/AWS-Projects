@@ -75,5 +75,5 @@ The live website confirms the Dockerized app was deployed successfully to the cl
 
 Feel free to connect with me or check out more of my projects:
 
-🔗 [LinkedIn](www.linkedin.com/in/suhithachundru)  
+🔗 [LinkedIn](https://www.linkedin.com/in/suhithachundru/)  
 🔗 [GitHub Profile](https://github.com/DeviSuhithaChundru)
