@@ -1,5 +1,4 @@
-
-# Deploying a Containerized Web Application Using Docker & AWS Elastic Beanstalk 
+#  Deploying a Containerized Web App Using Docker & AWS Elastic Beanstalk  
 <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="Docker Logo" width="60"/>
 <img src="https://cdn.worldvectorlogo.com/logos/aws-elastic-beanstalk.svg" alt="Elastic Beanstalk Logo" width="60"/>
 
