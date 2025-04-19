@@ -1,5 +1,5 @@
 
-# 🚀 Deploying a Containerized Web App Using Docker & AWS Elastic Beanstalk &nbsp;
+# Deploying a Containerized Web App Using Docker & AWS Elastic Beanstalk &nbsp;
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
 ![Elastic Beanstalk](https://img.shields.io/badge/-Elastic%20Beanstalk-FF9900?logo=amazonaws&logoColor=white&style=flat-square)
 
