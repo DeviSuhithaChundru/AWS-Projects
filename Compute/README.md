@@ -27,7 +27,7 @@ This project showcases how I deployed a simple static website by containerizing 
 
 ## 🌐 Result
 
-![Deployed App](screenshots/Deployed Application.png)
+![Deployed App](screenshots/Deployed_Application.png)
 
 The live site confirms the project was successfully deployed through Elastic Beanstalk.
 
