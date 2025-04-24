@@ -78,7 +78,7 @@ To avoid unnecessary resource costs, I:
 
 ## 📬 Let's Connect
 
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
+🔗 [LinkedIn](https://www.linkedin.com/in/suhithachundru/)  
 🔗 [GitHub](https://github.com/DeviSuhithaChundru)
 
 ---
