@@ -19,7 +19,7 @@ This project demonstrates the complete setup of a Kubernetes environment on AWS.
 - **AWS IAM**
 - **eksctl**
 - **kubectl**
-- **Amazon Linux 2023**
+
 
 ---
 
