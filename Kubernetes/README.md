@@ -63,7 +63,7 @@ You can view the full set of step-by-step screenshots here:
 
 ## 📚 Documentation
 
-📄 [View Full Project Documentation](Screenshots/Kubernetes_EKS_Cluster_Deployment.pdf)
+📄 [View Full Project Documentation](https://github.com/DeviSuhithaChundru/AWS-Projects/blob/main/Kubernetes/Kubernetes_EKS_Cluster%20Deployment.pdf)
 This PDF includes:
 
 - Project walkthrough
