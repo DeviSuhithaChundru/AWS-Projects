@@ -1,34 +1,31 @@
-# Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
+# 📦 Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
 
 This is the first part of my Kubernetes hands-on learning series, where I explore how to set up and manage Kubernetes clusters across different platforms. In **Part 1**, I provisioned and deployed a production-ready Kubernetes cluster on AWS using Amazon EKS, EC2, IAM, and CloudFormation — all automated via `eksctl`.
 
+---
 
-# 🚀 From EC2 to EKS: Automating Kubernetes Cluster Deployment
+# From EC2 to EKS: Automating Kubernetes Cluster Deployment
 
-This repository showcases the hands-on deployment of a Kubernetes cluster on AWS using **Amazon Elastic Kubernetes Service (EKS)**, `eksctl`, EC2, IAM, and CloudFormation.
+This project demonstrates how I provisioned and deployed a fully functional Kubernetes cluster on AWS using **Amazon Elastic Kubernetes Service (EKS)**, `eksctl`, and supporting services like EC2, IAM, and CloudFormation. The goal was to understand the complete lifecycle of Kubernetes infrastructure automation using real-world AWS tools.
 
 ---
 
 ## 🎯 Project Objective
 
-The goal of this project was to provision and deploy a fully functional Kubernetes cluster on AWS using **Amazon Elastic Kubernetes Service (EKS)**. I launched an EC2 instance, configured IAM roles, and used `eksctl` to automate the provisioning process. The infrastructure was orchestrated through AWS CloudFormation. I secured access using IAM access entries and validated the cluster’s resilience by terminating nodes and observing Kubernetes' self-healing in action.
+The goal of this project was to automate the deployment of a production-ready Kubernetes cluster on AWS using **Amazon EKS**. Starting from an EC2 instance, I used `eksctl` to trigger an infrastructure-as-code workflow via **AWS CloudFormation**, which provisioned networking components, the EKS control plane, and managed node groups. I configured IAM roles and access entries to secure the environment, and finally validated the cluster’s resilience by simulating node failures. This hands-on project demonstrated my ability to integrate cloud-native tools, automate deployments, and implement secure, scalable Kubernetes infrastructure on AWS.
 
 ---
 
 ## 🏗 Architecture Overview
 
-📌 *[Insert Architecture Diagram Here]*
+📌 ![Project Architecture](Project_Architecture.png)
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tech Stack
 
-- **Amazon EKS** – Managed Kubernetes service
-- **Amazon EC2** – Control environment for running eksctl
-- **AWS IAM** – Role-based access control
-- **AWS CloudFormation** – Infrastructure-as-Code provisioning
-- **eksctl** – CLI tool to create and manage EKS clusters
-- **kubectl** – Kubernetes command-line tool
+- **Tools Used**: AWS, EKS, EC2, IAM, CloudFormation, `eksctl`, `kubectl`  
+- **Skills Applied**: Infrastructure as Code (IaC), Kubernetes Admin, Cloud Automation, IAM/RBAC, Resilience Testing
 
 ---
 
@@ -40,22 +37,17 @@ To test Kubernetes' self-healing capabilities, I manually terminated EC2 nodes f
 
 ## 📸 Project Screenshots
 
-You can view key screenshots that document each stage of the project in this [📂 Screenshot Gallery](#) *(update with actual GitHub folder or hosted link)*.
+You can view key screenshots that document each stage of the project in this 👉 [📂 Screenshots](#) *(replace with actual folder or link)*.
 
 ---
 
 ## 📚 What I Learned
 
-- How to automate Kubernetes cluster deployment using `eksctl`
-- Setting up IAM roles and access entries for EKS
-- How CloudFormation handles resource provisioning under the hood
-- Managing node groups, scaling settings, and fault tolerance in Amazon EKS
+- Automating Kubernetes cluster deployment with `eksctl`
+- Configuring IAM roles and mapping to Kubernetes RBAC
+- Using AWS CloudFormation behind `eksctl` for IaC
+- Managing node groups, scaling, and auto-healing in Amazon EKS
 
 ---
 
-## 👩‍💻 Author
-
-**Devi Suhitha Chundru**  
-📫 [LinkedIn](https://www.linkedin.com/in/your-profile)  
-🌐 [Portfolio](https://your-portfolio.com) *(optional)*
 
