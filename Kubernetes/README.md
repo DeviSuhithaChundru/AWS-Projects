@@ -9,34 +9,16 @@ This project is the first part of my Kubernetes hands-on learning series. In Par
 This project demonstrates the complete setup of a Kubernetes environment on AWS. I used an EC2 instance to run `eksctl`, which generated the CloudFormation stacks necessary to provision the Amazon EKS control plane and node group. I configured IAM roles for secure access and tested cluster resilience by terminating nodes to observe Kubernetes' self-healing capabilities.
 
 ---
-
-## 🛠️ Tools & Technologies
-
-- **Amazon Web Services (AWS)**
-- **Amazon Elastic Kubernetes Service (EKS)**
-- **Amazon EC2**
-- **AWS CloudFormation**
-- **AWS IAM**
-- **eksctl**
-- **kubectl**
+## 🛠️Tools & Technologies Used
+- **Amazon Elastic Kubernetes Service (EKS)** – I used Amazon EKS as the managed Kubernetes service to deploy and scale containerized applications.
+- **Amazon EC2** – I launched an EC2 instance to serve as the compute environment for running eksctl and managing the cluster setup.
+- **AWS CloudFormation** – I utilized AWS CloudFormation to automate the provisioning of required infrastructure components.
+- **AWS IAM**– I configured IAM roles and policies to securely manage access to AWS services during the deployment process.
+- **Kubernetes** – I worked with Kubernetes as the container orchestration platform to manage workloads and services within the cluster.
+- **eksctl** – I used the eksctl CLI tool to automate the creation and configuration of the EKS cluster.
 
 
 ---
-
-## 📁 Project Structure
-
-```
-.
-├── README.md
-├── Project_Architecture.png
-├── screenshots/
-│   ├── ec2_instance.png
-│   ├── eksctl_command.png
-│   ├── cloudformation_stack.png
-│   ├── eks_cluster_console.png
-│   ├── node_termination.png
-├── Kubernetes_EKS_Cluster_Deployment.pdf
-```
 
 ---
 
@@ -44,11 +26,11 @@ This project demonstrates the complete setup of a Kubernetes environment on AWS.
 
 A high-level view of the EKS cluster provisioning process:
 
-1. Launch EC2 instance with IAM role
-2. Install `eksctl` and `kubectl`
-3. Use `eksctl create cluster` to deploy EKS via CloudFormation
-4. Create IAM Access Entries for EKS Console access
-5. Simulate node failure and observe auto-recovery
+1. Launched EC2 instance with IAM role
+2. Installed `eksctl` 
+3. Used `eksctl create cluster` to deploy EKS via CloudFormation
+4. Created IAM Access Entries for EKS Console access
+5. Simulated node failure and observe auto-recovery
 
 ![Architecture Diagram](Screenshots/Project_Architecture.png)
 
