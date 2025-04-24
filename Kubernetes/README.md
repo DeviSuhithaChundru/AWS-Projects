@@ -57,7 +57,7 @@ A high-level view of the EKS cluster provisioning process:
 ## 📸 Key Screenshots
 
 You can view the full set of step-by-step screenshots here:  
-[📂 Screenshots](Screenshots/) *(link or folder)*
+[📂 Screenshots](https://github.com/DeviSuhithaChundru/AWS-Projects/tree/main/Kubernetes/Screenshots) *(link or folder)*
 
 ---
 
