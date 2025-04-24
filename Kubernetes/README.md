@@ -57,13 +57,13 @@ A high-level view of the EKS cluster provisioning process:
 ## 📸 Key Screenshots
 
 You can view the full set of step-by-step screenshots here:  
-📂 [Kubernetes/Screenshots] *(link or folder)*
+📂 [Screenshots] *(link or folder)*
 
 ---
 
 ## 📚 Documentation
 
-📄 **[Kubernetes_EKS_Cluster Deployment.pdf](#)**  
+📄 [View Full Project Documentation](Kubernetes_EKS_Cluster Deployment.pdf)
 This PDF includes:
 
 - Project walkthrough
