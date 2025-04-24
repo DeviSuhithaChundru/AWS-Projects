@@ -50,7 +50,7 @@ A high-level view of the EKS cluster provisioning process:
 4. Create IAM Access Entries for EKS Console access
 5. Simulate node failure and observe auto-recovery
 
-📌 *See [Screenshots/Project_Architecture.png] for visual flow*
+![Architecture Diagram](Screenshots/Project_Architecture.png)
 
 ---
 
