@@ -1,52 +1,103 @@
 # 📦 Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
 
-This is the first part of my Kubernetes hands-on learning series, where I explore how to set up and manage Kubernetes clusters across different platforms. In **Part 1**, I provisioned and deployed a production-ready Kubernetes cluster on AWS using Amazon EKS, EC2, IAM, and CloudFormation — all automated via `eksctl`.
+This project is the first part of my Kubernetes hands-on learning series. In Part 1, I set up a fully managed Kubernetes cluster using Amazon EKS, automated via `eksctl`, and deployed with supporting AWS infrastructure including EC2, IAM, and CloudFormation.
 
 ---
 
-# From EC2 to EKS: Automating Kubernetes Cluster Deployment
+## 🚀 Project Overview
 
-This project demonstrates how I provisioned and deployed a fully functional Kubernetes cluster on AWS using **Amazon Elastic Kubernetes Service (EKS)**, `eksctl`, and supporting services like EC2, IAM, and CloudFormation. The goal was to understand the complete lifecycle of Kubernetes infrastructure automation using real-world AWS tools.
-
----
-
-## 🎯 Project Objective
-
-The goal of this project was to automate the deployment of a production-ready Kubernetes cluster on AWS using **Amazon EKS**. Starting from an EC2 instance, I used `eksctl` to trigger an infrastructure-as-code workflow via **AWS CloudFormation**, which provisioned networking components, the EKS control plane, and managed node groups. I configured IAM roles and access entries to secure the environment, and finally validated the cluster’s resilience by simulating node failures. This hands-on project demonstrated my ability to integrate cloud-native tools, automate deployments, and implement secure, scalable Kubernetes infrastructure on AWS.
+This project demonstrates the complete setup of a Kubernetes environment on AWS. I used an EC2 instance to run `eksctl`, which generated the CloudFormation stacks necessary to provision the Amazon EKS control plane and node group. I configured IAM roles for secure access and tested cluster resilience by terminating nodes to observe Kubernetes' self-healing capabilities.
 
 ---
 
-## 🏗 Architecture Overview
+## 🛠️ Tools & Technologies
 
-📌 ![Project Architecture](Project_Architecture.png)
-
----
-
-## 🛠 Tech Stack
-
-- **Tools Used**: AWS, EKS, EC2, IAM, CloudFormation, `eksctl`, `kubectl`  
-- **Skills Applied**: Infrastructure as Code (IaC), Kubernetes Admin, Cloud Automation, IAM/RBAC, Resilience Testing
-
----
-
-## 🔁 Cluster Resilience Test
-
-To test Kubernetes' self-healing capabilities, I manually terminated EC2 nodes from the EKS-managed node group. Within minutes, Kubernetes automatically recreated the instances to restore the desired node count—proving the reliability and resilience of the system.
+- **Amazon Web Services (AWS)**
+- **Amazon Elastic Kubernetes Service (EKS)**
+- **Amazon EC2**
+- **AWS CloudFormation**
+- **AWS IAM**
+- **eksctl**
+- **kubectl**
+- **Amazon Linux 2023**
 
 ---
 
-## 📸 Project Screenshots
+## 📁 Project Structure
 
-You can view key screenshots that document each stage of the project in this 👉 [📂 Screenshots](#) *(replace with actual folder or link)*.
+```
+.
+├── README.md
+├── Project_Architecture.png
+├── screenshots/
+│   ├── ec2_instance.png
+│   ├── eksctl_command.png
+│   ├── cloudformation_stack.png
+│   ├── eks_cluster_console.png
+│   ├── node_termination.png
+├── Kubernetes_EKS_Cluster_Deployment.pdf
+```
 
 ---
 
-## 📚 What I Learned
+## 🧭 Architecture Overview
 
-- Automating Kubernetes cluster deployment with `eksctl`
-- Configuring IAM roles and mapping to Kubernetes RBAC
-- Using AWS CloudFormation behind `eksctl` for IaC
-- Managing node groups, scaling, and auto-healing in Amazon EKS
+A high-level view of the EKS cluster provisioning process:
+
+1. Launch EC2 instance with IAM role
+2. Install `eksctl` and `kubectl`
+3. Use `eksctl create cluster` to deploy EKS via CloudFormation
+4. Create IAM Access Entries for EKS Console access
+5. Simulate node failure and observe auto-recovery
+
+📌 *See `Project_Architecture.png` for visual flow*
+
+---
+
+## 📸 Key Screenshots
+
+You can view the full set of step-by-step screenshots here:  
+📂 [Screenshots Folder](#) *(link or folder)*
+
+---
+
+## 📚 Documentation
+
+📄 **[Kubernetes_EKS_Cluster_Deployment.pdf](#)**  
+This PDF includes:
+
+- Project walkthrough
+- CLI commands & IAM setup
+- Cluster creation via eksctl
+- CloudFormation stack analysis
+- EKS access entries & console overview
+- Node termination and auto-recovery test
+
+---
+
+## ✅ Key Takeaways
+
+- Automated Kubernetes cluster setup using `eksctl`
+- Gained experience in EKS architecture and RBAC configuration
+- Explored AWS IAM, EC2, and CloudFormation in context of K8s
+- Observed real-world use of self-healing infrastructure
+
+---
+
+## 🧹 Clean Up After Deployment
+
+To avoid unnecessary resource costs, I:
+
+- Deleted the EKS cluster using `eksctl delete cluster`
+- Terminated associated EC2 instances
+- Deleted leftover S3 and CloudFormation stacks
+
+---
+
+## 📬 Let's Connect
+
+🔗 [LinkedIn](https://www.linkedin.com/in/your-profile)  
+🔗 [GitHub](https://github.com/DeviSuhithaChundru)
 
 ---
 
