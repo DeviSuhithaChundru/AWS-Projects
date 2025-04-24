@@ -1,4 +1,4 @@
-# 📦 Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
+# Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
 
 This project is the first part of my Kubernetes hands-on learning series. In Part 1, I set up a fully managed Kubernetes cluster using Amazon EKS, automated via `eksctl`, and deployed with supporting AWS infrastructure including EC2, IAM, and CloudFormation.
 
