@@ -1,4 +1,4 @@
-# 🚀 Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
+# Kubernetes Series – Part 1: Launch a Kubernetes Cluster Using Amazon EKS
 
 ![AWS](https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white&style=for-the-badge)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=for-the-badge)
