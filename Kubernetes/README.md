@@ -19,7 +19,7 @@ I also tested cluster resilience by simulating node failures and observing Kuber
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Amazon Elastic Kubernetes Service (EKS)** – Managed Kubernetes service for containerized applications
 - **Amazon EC2** – Compute instance used to run eksctl and manage the cluster
